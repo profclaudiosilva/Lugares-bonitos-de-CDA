@@ -1,0 +1,188 @@
+body {
+    background-color: darkgreen;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabecalho {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2vw;
+    padding: 1vw;
+
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo h1{
+    font-size: 4vw;
+    margin: 0;
+}
+
+.menu {
+    flex: 3;
+    font-size: 1.5vw;
+    text-align: center;
+    align-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: darkgreen;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(183, 206, 159);
+    border-radius: 1vw;
+    font-size: 100%;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+
+.menu a:hover {
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+.section_da_home{
+display: flex;
+margin-top: 4vw;
+flex-direction: row;
+
+
+}
+
+.apresentacao_da_home{
+flex: 1;
+padding: 1vw;
+color: white;
+text-align: right;
+margin: 2vw;
+margin-left: 3px;
+}
+
+.apresentacao_da_home h1{
+    font-size: 4vw;
+    margin: 0;
+}
+
+.fotos_da_home{
+flex: 1;
+}
+
+.fotos_da_home img{
+    width: 93.6%;
+    border: 0.5vw solid white;
+    margin-left: 2vw;
+}
+
+.section_da_home2{
+    display: flex;
+    margin-top: 4vw;
+    flex-direction: row-reverse;
+
+}
+
+.apresentacao_da_home2{
+flex: 1;
+padding: 1vw;
+color: white;
+text-align: left;
+margin: 1vw;
+margin-right: 3px;
+
+}
+
+.fotos_da_home2{
+flex: 1;
+}
+
+.fotos_da_home2 img{
+width: 93.6%;
+border: 0.5vw solid white;
+margin-right: 2vw;
+}
+
+
+.apresentacao_da_home2 h1{
+    font-size: 4vw;
+    margin: 0;
+}
+
+
+.pezin{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 1vw;
+    padding: 1vw;
+    align-items: center;
+}
+
+.pezao {
+flex: 1;
+}
+
+.pezao img{
+    width: 10%;
+}
+
+
+.seila{
+    flex: 1;
+  
+}
+
+
+
+@media (max-width: 600px) {
+.cabecalho{
+    flex-direction: column;
+    flex: 1 100%;
+}
+
+.section_da_home{
+flex-direction: column;
+}
+.apresentacao_da_home{
+    text-align: center;
+}
+.fotos_da_home{
+    margin-left: 10px;
+}
+.section_da_home2{
+    flex-direction: column;
+    }
+
+.fotos_da_home2{
+    margin-left: 20px;
+
+}
+.apresentacao_da_home2{
+     text-align: center;
+ }
+
+.pezao img{
+    width: 20%;
+
+}
+
+
+.pezin{
+    padding: 2vw;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+}
+}

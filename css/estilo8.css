@@ -1,0 +1,233 @@
+
+body {
+
+background-color:rgb(66, 121, 122);
+text-align: center;
+
+}
+
+.cabecalho { 
+
+display: flex;
+flex:  1 100%;
+background-color: cadetblue;
+color: white;
+border-radius: 5px;
+padding: 10px;
+
+
+}
+
+.cabecalho h1 {
+flex: 1;
+color: white;
+font-size: 10vw;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cabecalho h6 {
+
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section1 {
+
+    display: flex;
+
+} 
+
+.section2 {
+
+    margin-top: 10px;
+    display: flex;
+
+    }
+
+    .section3{
+    
+        display: flex; 
+       flex-direction: column;
+       
+    }
+    
+
+.section1 img {
+
+    flex: 1;
+    width: 380px;
+    border: solid black;
+    margin-top: 5px;
+    text-align: center;
+   }
+
+   .section2 img {
+
+    flex: 1;
+    width: 380px;
+    border: solid black;
+    margin-top: 5px;
+    text-align: center;
+
+}
+    
+.textos1 {
+    flex: 1;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+.textos1 h6 {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.textos1 p {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+
+.textos2 {
+    flex: 1;
+}
+
+.textos2 p { 
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.textos2 h6 {
+
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.voltarpag{
+
+background-color: rgb(59, 104, 105);
+width: 25%;
+padding: 10px;
+border-radius: 5px;
+box-shadow: 0.1rem 0.1rem 0.2rem black;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.voltarpag a {
+
+color: white;
+text-decoration: none;
+
+}
+
+
+.nomes{
+
+    margin: 0;
+    background-color: cadetblue;
+    border-radius: 5px;
+    box-shadow: 0.1rem 0.1rem 0.4rem black;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.foto_do_beiradeiro1 img{
+    
+flex: 1;
+width: 60vw;
+}
+
+
+
+
+
+@media (max-width: 600px){
+
+    .cabecalho{
+      display: flex;
+        flex-direction: column;
+        flex: 1 100%;
+       
+    }
+    .section1{
+       
+        flex-direction: column;
+        flex: 1;
+
+    }
+    .textos1 {
+    
+        flex-direction: column;
+        flex: 1;
+
+    }
+
+
+    .foto_do_beiradeiro1{
+        display: flex;
+        flex-direction: column;
+        flex: 1 100%;
+    }
+
+    .foto_do_beiradeiro1 img {
+        width: 95vw;
+    }
+    
+    .section2{
+    
+        flex-direction: column;
+        flex: 1;
+    }
+    .textos2 {
+    
+        flex-direction: column;
+        flex: 1;
+        }
+    
+    .foto_do_beiradeiro2{
+        
+        display: flex;
+        flex-direction: column;
+        flex: 1 100%;
+    }
+    
+    .section3{
+
+        flex-direction: column;
+        flex: 1 100%;
+
+    }
+
+        
+}
+
+
+
+
+   
+
+
+
+    

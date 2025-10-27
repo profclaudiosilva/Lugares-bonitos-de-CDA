@@ -1,0 +1,91 @@
+body{
+ background-color:green;
+}
+.cabecalho{
+    
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    
+    margin-top: 2vw;
+    padding: 2vw;
+    background-color: aquamarine; 
+
+
+}
+
+.cabecalho h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  width: 100%;
+}
+.frases{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+
+}
+
+.frases >* {
+  flex: 1 100%;
+  margin: 5px;
+
+}
+
+.logo {
+  flex: 1;
+}
+.logo img{
+  width: 100%
+
+}
+
+
+.apresentacao_da_home{
+    font-size: 150%;
+    margin: 2vw; 
+    color: aliceblue;
+    flex: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home{
+  
+  text-align: center;
+  margin: 20px;
+  
+}
+
+.home a{
+
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: bold;
+  text-decoration: none;
+  background-color: aquamarine;
+  padding: 10px;
+  font-size: 2rem;
+  color: black;
+  border-radius: 10px;
+ 
+  
+}
+
+.autores {
+  margin-top: 2vw;
+    padding: 2vw;
+   text-align: center;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home a:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .frases{
+    flex-direction: column;
+  }
+
+}
